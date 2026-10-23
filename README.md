@@ -84,24 +84,34 @@ jasleen-movie-ratings/
       -Code Organization: Modular design for maintainability
 
 
+##  Installation & Setup
 
- ##  Installation & Setup
+### 1. Clone the repository
 
-   1. Clone the repository
-       git clone https://github.com/jasleen-data/jasleen-movie-ratings.git
-       cd jasleen-movie-ratings
+```bash
+git clone https://github.com/jasleen-data/jasleen-movie-ratings.git
+```
 
-   2. Install required packages
-       pip install matplotlib mplcursors
+### 2. Move into the project folder
 
-   3. Run the CLI App
-       python main.py
+```bash
+cd jasleen-movie-ratings
+```
 
-   4. Generate Interactive Charts
-       python visualize.py
-   Charts will be saved in the charts folder for portfolio showcase.
+### 3. Install the required libraries
 
+```bash
+pip install -r requirements.txt
+```
 
+### 4. Run the project
+
+```bash
+python main.py
+```
+
+The project uses SQLite, so the database is created locally when the application runs.
+   
 
  ##  Project Workflow
 

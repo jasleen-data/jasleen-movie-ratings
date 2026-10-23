@@ -8,7 +8,7 @@ from database import (
     get_top_rated
 )
 from utils import display_movies, get_movie_id, get_rating
-
+5
 # -------------------------------------------------------
 # Add sample movies to the collection if database is empty
 # -------------------------------------------------------

@@ -65,21 +65,15 @@ Even without a GUI, the combination of **CLI input/output** and **interactive da
 
 ##  Folder Structure
 
-```mermaid
-flowchart TD
-    A[jasleen-movie-ratings/] --> B[main.py : CLI entry point]
-    A --> C[database.py : Database creation & queries]
-    A --> D[utils.py : Helper functions & input validation]
-    A --> E[visualize.py : Interactive charts & dashboards]
-    A --> F[jasleen_movies.db : SQLite database]
-    A --> G[charts/ : Generated charts]
-    G --> G1[top_rated_movies.png]
-    G --> G2[genre_distribution.png]
-    G --> G3[rating_trends.png]
-    A --> H[README.md : Documentation]
-    A --> I[requirements.txt : Python dependencies]
-
-
+jasleen-movie-ratings/
+├── main.py
+├── database.py
+├── utils.py
+├── visualize.py
+├── jasleen_movies.db
+├── charts/
+├── top_rated_movies.png
+└── genre_distribution.png
 
  ##  Technology Stack   
 
